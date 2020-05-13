@@ -1,0 +1,41 @@
+
+body {
+  /*background: #4499ff;*/
+  background-image:url('http://cdn29.us1.fansshare.com/pictures/background/grey-background-for-site-787760958.jpg');
+  background-size: auto 100vh;
+  font-family: Arial;
+  height: 100vh;
+}
+
+/*AQUI ARRUMA O PROPRIO MENU*/
+.menu{
+  background: white;  
+}
+
+/*AQUI ARRUMA O UL DO MENU PARA QUE FIQUE LADO A LADO*/
+.menu ul{
+  display: flex; /*PROPRIEDADE PARA COLOCAR A LISTA NA MESMA LINHA*/
+  justify-content: space-between; /*PROPRIEDADE PARA SEPARAR O TEXTO DA LISTA NA MESMA LINHA*/
+}
+
+/*AQUI ARRUMA A LISTA QUE ESTA DENTRO DA CLASSE MENU DA NAV*/
+.menu li{
+  list-style:none;
+}
+
+/*AQUI DEIXA TODOS O LINKS IGUAIS ... LINKS SAO TAG A*/
+a{
+ color: black;
+ text-decoration: none; 
+}
+
+.site-title{
+  color: darkblue;
+  text-align: center;
+}
+
+.site-subtitle{
+  color: whitesmoke;
+  text-align: center;
+  font-style: italic;
+}
